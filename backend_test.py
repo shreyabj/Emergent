@@ -12,7 +12,7 @@ from datetime import datetime
 import time
 
 class SafeGuardAPITester:
-    def __init__(self, base_url="https://e399c1c0-896a-4d04-8fcf-f3dad896553c.preview.emergentagent.com"):
+    def __init__(self, base_url="https://fd62e6fc-ea20-48c6-9d4e-9ccbc85f1636.preview.emergentagent.com"):
         self.base_url = base_url
         self.api_url = f"{base_url}/api"
         self.tests_run = 0
